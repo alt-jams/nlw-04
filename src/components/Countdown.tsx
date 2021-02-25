@@ -3,7 +3,7 @@ import { ChallengesContext } from '../contexts/challengesContext';
 import { CountdownContext } from '../contexts/CountdownContext';
 import styles from '../styles/components/Countdown.module.css';
 
-
+import { FaCheckCircle,  FaTimes, FaCaretRight} from "react-icons/fa";
 
 export function Countdown(){
     const { minutes,
@@ -36,7 +36,7 @@ export function Countdown(){
                 <button 
                 disabled 
                 className={styles.countdownButton}>       
-                    Ciclo encerrado
+                    Ciclo encerrado &nbsp;&nbsp;  <FaCheckCircle size={24} color="#4CD62B"/> 
                 </button>
             ) : (
                 <>
@@ -44,13 +44,13 @@ export function Countdown(){
                         <button type="button" 
                         className={`${styles.countdownButton} ${styles.countdownButtonActive}`}
                         onClick={resetCountdown}>       
-                            Abandonar ciclo
+                            Abandonar ciclo &nbsp;&nbsp;  <FaTimes size={24}/>
                         </button>
                     ): (
                         <button type="button" 
                         className={styles.countdownButton}
                         onClick={startCountdown}>       
-                            Iniciar um ciclo
+                            Iniciar um ciclo &nbsp;&nbsp;  <FaCaretRight size={30}/>
                         </button>
                     )} 
                 </>
