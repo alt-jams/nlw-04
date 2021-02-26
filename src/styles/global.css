@@ -1,10 +1,24 @@
-:root{
+.light{
     --white: #fff;
     --background: #f2f3f5;
     --gray-line: #dcdde0;
     --text:#666666;
     --text-highlight: #b3b9ff;
     --title: #2e384d;
+    --red: #e83f5b;
+    --green:#4cd62b;
+    --blue: #5965e0;
+    --blue-dark: #4953b8;
+    --blue-twitter: #2AA9E0;
+}
+
+.dark{
+    --white: #222222;
+    --background: #121212;
+    --gray-line: #282829;
+    --text:#919191;
+    --text-highlight: #cfd3f8;
+    --title: #697ca3;
     --red: #e83f5b;
     --green:#4cd62b;
     --blue: #5965e0;

@@ -10,6 +10,7 @@ import { Countdown } from "../components/Countdown";
 import styles from '../styles/pages/Home.module.css';
 import { CountdownProvider } from '../contexts/CountdownContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { ActiveDarkMode } from '../components/ActiveDarkMode';
 
 interface HomeProps {
   level: number;
@@ -28,6 +29,7 @@ export default function Home(props: HomeProps) {
           <title>Início | Move it</title>
         </Head>
 
+        <ActiveDarkMode/>
         <ExperienceBar/>
 
         <CountdownProvider>
