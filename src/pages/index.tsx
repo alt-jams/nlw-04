@@ -9,7 +9,7 @@ import { Countdown } from "../components/Countdown";
 
 import styles from '../styles/pages/Home.module.css';
 import { CountdownProvider } from '../contexts/CountdownContext';
-import { ChallengesProvider } from '../contexts/challengesContext';
+import { ChallengesProvider } from '../contexts/ChallengesContext';
 
 interface HomeProps {
   level: number;
