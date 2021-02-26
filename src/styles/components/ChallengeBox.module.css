@@ -111,3 +111,18 @@
 .challengeActive footer button:hover{
     filter:brightness(0.9);
 }
+
+@media (max-width: 600px){
+    .challengeBoxContainer{
+        padding-bottom: 2rem;
+    }
+
+    .challengeActive footer{
+        margin-top: 1rem;
+    }
+
+    .challengeActive main{
+        margin-top: 1rem;
+    }
+
+}
