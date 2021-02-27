@@ -46,4 +46,6 @@ yarn dev
 ```
 
 
-
+<p align="center">
+    💜
+</p>
