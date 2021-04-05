@@ -40,7 +40,7 @@ Entre no projeto e instale as dependencias com o comando:
 ``` bash
 yarn
 ```
-Incie o projeto:
+Inicie o projeto:
 ``` bash
 yarn dev
 ```
